@@ -1,0 +1,63 @@
+baseurl = "https://lramadhan.github.io"
+DefaultContentLanguage = "en"
+title = "LinuxmanNote"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+disqusShortname = "luthramadhinolfski"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "I wrote my stories here"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "2 February, 2006"
+  commit = false
+  rss = true
+  comments = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Kowalski"
+  email = "hanafiah.ramadhan@gmail.com"
+  facebook = "ramadhinolfski"
+  googleplus = "+LutfiRamadhan"
+  github = "lramadhan"
+  twitter = "lramadhan_"
+  #reddit = "username"
+  linkedin = "lutfi-ramadhan-2b74586a"
+  #xing = "username"
+  stackoverflow = "users/2900729/lutfi-hanafiah-ramadhan"
+  #snapchat = "username"
+  instagram = "lramadhan"
+  youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  spotify = "ramadhinolfski"
+  #bandcamp = "username"
+  #itchio = "username"
+
+[[menu.main]]
+    name = "CV"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
